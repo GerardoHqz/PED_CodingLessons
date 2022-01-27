@@ -1,0 +1,34 @@
+Parte 1.
+
+Expresion 1:
+
+(A+B)*($(D-E)-G
+
+Postfija:
+(AB+)*(C$(CD-)+F)-G
+(AB+)*(CDE-$ + F)-G
+(AB+)*(CDE-$F+)-G
+(AB+CDE-$F+*)-G
+AB+CDE-$F+*G-
+
+Prefija:
+(+AB)*(C$(-DE)+F)-G
+(-AB)*($C-DE + F)-G
+(-AB)*(+$C-DEF)-G
+*+AB+$C-DEF - G
+-*+AB+$C-DEFG
+
+Expresion 3:
+
+A-B/(C$D)+E*(F+G)
+
+Postfija:
+A-B/(CD$)+E*(FG+)
+A-BCD$/ + EFG+*
+ABCD$/-EFG+*+
+
+Prefija:
+A-B/($CD)+E*(+FG)
+A-/BCD$ + *E+FG
+-A/B$CD + *E+FG
++-A/B$CD*E+FG
