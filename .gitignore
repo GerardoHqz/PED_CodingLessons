@@ -1,5 +1,5 @@
 # Ignorar archivos .exe
-*.exe
+**/*.exe
 
 # Ignorar archivos .vsc
-*.vsc
+**/*.vsc
